@@ -1,0 +1,40 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+.navbar-wrapper{
+    	position: absolute;
+    	top:0;
+    	right: 0;
+    	left: 0;
+    	z-index: 20; 
+    }
+      .img-circle{
+        border-radius: 50%;
+        width: 100px;
+      height: 100px;
+   }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 90px;
+  background-color: #ccc;
+}
+
+.loginbox a{
+      text-decoration: none;
+      font-size: 12px;
+      line-height: 20px;
+      color: #8fb8e2;
+    }
+    .loginbox a:hover{
+      color: #ffc107;
+    }
+
