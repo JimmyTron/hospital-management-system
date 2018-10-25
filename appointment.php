@@ -92,6 +92,10 @@ session_start();?>
               <input type="tel" class="form-control" id="pwd" name="phone" required>
             </div>
             <div class="form-group">
+            <div class="form-group">
+             <label for="pwd">Next on Kin:</label>
+              <input type="text" class="form-control" id="pwd" name="nextofkin" required>
+            </div>
               <label for="pwd">Address:</label>
               <textarea class="form-control" id="pwd" name="address" required></textarea>
             </div>

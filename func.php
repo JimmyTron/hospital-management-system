@@ -28,12 +28,13 @@ if (isset($_POST['submit'])) {
   $age=$_POST['age'];
   $weight=$_POST['weight'];
   $phone=$_POST['phone'];
+  $nextofkin=$_POST['nextofkin'];
   $address =$_POST['address'];
   $specialist=$_POST['specialist'];
   $medcondition=$_POST['medcondition'];
 
-  $query= "INSERT INTO appointment (fullname, age, weight, phone, address, specialist, medcondition)
-    VALUES ('$fullname','$age','$weight', '$phone', '$address', 
+  $query= "INSERT INTO appointment (fullname, age, weight, phone, nextofkin, address, specialist, medcondition)
+    VALUES ('$fullname','$age','$weight', '$phone', '$nextofkin', '$address', 
     '$specialist', 'medcondition')";
   $result=mysqli_query($con,$query);
 if ($result) {
